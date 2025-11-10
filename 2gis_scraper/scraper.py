@@ -17,14 +17,19 @@ import config
 logger = logging.getLogger(__name__)
 
 # Check if we should use Playwright (for Railway deployment)
-USE_PLAYWRIGHT = os.getenv('USE_PLAYWRIGHT', 'false').lower() == 'true'
+USE_PLAYWRIGHT_ENV = os.getenv('USE_PLAYWRIGHT', 'false')
+USE_PLAYWRIGHT = USE_PLAYWRIGHT_ENV.lower() == 'true'
+
+logger.info(f"USE_PLAYWRIGHT environment variable: {USE_PLAYWRIGHT_ENV}")
+logger.info(f"Playwright mode: {'ENABLED' if USE_PLAYWRIGHT else 'DISABLED'}")
 
 if USE_PLAYWRIGHT:
     try:
         from playwright.sync_api import sync_playwright
-        logger.info("Playwright mode enabled")
-    except ImportError:
-        logger.warning("Playwright not available, falling back to requests")
+        logger.info("✓ Playwright successfully imported")
+    except ImportError as e:
+        logger.error(f"✗ Playwright import failed: {e}")
+        logger.warning("Falling back to requests")
         USE_PLAYWRIGHT = False
 
 
