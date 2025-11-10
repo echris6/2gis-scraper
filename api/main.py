@@ -58,7 +58,7 @@ class ScrapeRequest(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"status": "ok", "message": "2GIS Scraper API"}
+    return {"status": "ok", "message": "2GIS Scraper API", "version": "2.0-playwright"}
 
 @app.get("/debug/cors")
 def debug_cors():
