@@ -130,9 +130,9 @@ class TwoGISScraper:
 
         return url
 
-    def _fetch_page_playwright(self, url: str) -> Optional[str]:
+    def _fetch_page_playwright_sync(self, url: str) -> Optional[str]:
         """
-        Fetch HTML using Playwright (for bypassing anti-bot measures)
+        Fetch HTML using Playwright (synchronous version for thread execution)
 
         Args:
             url: URL to fetch
@@ -147,7 +147,7 @@ class TwoGISScraper:
                 page.goto(url, wait_until='networkidle', timeout=30000)
                 html = page.content()
                 browser.close()
-                logger.info(f"Fetched with Playwright: {url} ({len(html)} bytes)")
+                logger.info(f"✓ Fetched with Playwright: {url} ({len(html)} bytes)")
                 return html
         except Exception as e:
             logger.error(f"Playwright fetch failed: {e}")
@@ -184,7 +184,26 @@ class TwoGISScraper:
             else:
                 logger.info("[FETCH_PAGE] ✅ Playwright mode ACTIVE - attempting browser fetch")
                 try:
-                    html = self._fetch_page_playwright(url)
+                    # Run sync Playwright in a thread to avoid asyncio loop conflict
+                    import asyncio
+                    import concurrent.futures
+
+                    try:
+                        # Check if we're in an async context
+                        loop = asyncio.get_event_loop()
+                        if loop.is_running():
+                            # We're in an async context - use thread pool
+                            logger.info("[FETCH_PAGE] Running Playwright in thread pool (async context detected)")
+                            with concurrent.futures.ThreadPoolExecutor() as executor:
+                                future = executor.submit(self._fetch_page_playwright_sync, url)
+                                html = future.result(timeout=60)
+                        else:
+                            # Not in async context - call directly
+                            html = self._fetch_page_playwright_sync(url)
+                    except RuntimeError:
+                        # No event loop - call directly
+                        html = self._fetch_page_playwright_sync(url)
+
                     if html:
                         self.cache.set(url, html)
                         return html
