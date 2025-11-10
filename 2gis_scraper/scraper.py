@@ -20,12 +20,14 @@ logger = logging.getLogger(__name__)
 # NOTE: We now check environment variable at RUNTIME in _fetch_page() method
 # to avoid issues with env vars not being available at module import time
 USE_PLAYWRIGHT_ENV = os.getenv('USE_PLAYWRIGHT', 'false')
-USE_PLAYWRIGHT = USE_PLAYWRIGHT_ENV.lower() == 'true'
+USE_PLAYWRIGHT = USE_PLAYWRIGHT_ENV.strip().lower() == 'true'
 
 # Use print for Railway stdout + logger for app logs
-print(f"[SCRAPER MODULE] USE_PLAYWRIGHT environment variable: {USE_PLAYWRIGHT_ENV}")
+print(f"[SCRAPER MODULE] USE_PLAYWRIGHT environment variable: '{USE_PLAYWRIGHT_ENV}' (raw)")
+print(f"[SCRAPER MODULE] After strip().lower(): '{USE_PLAYWRIGHT_ENV.strip().lower()}'")
 print(f"[SCRAPER MODULE] Playwright mode: {'ENABLED' if USE_PLAYWRIGHT else 'DISABLED'}")
-logger.info(f"USE_PLAYWRIGHT environment variable: {USE_PLAYWRIGHT_ENV}")
+logger.info(f"USE_PLAYWRIGHT environment variable: '{USE_PLAYWRIGHT_ENV}' (raw)")
+logger.info(f"After strip().lower(): '{USE_PLAYWRIGHT_ENV.strip().lower()}'")
 logger.info(f"Playwright mode: {'ENABLED' if USE_PLAYWRIGHT else 'DISABLED'}")
 
 # Always try to import Playwright (might be needed at runtime)
@@ -167,9 +169,11 @@ class TwoGISScraper:
             return cached_html
 
         # Debug: Check USE_PLAYWRIGHT value at runtime
-        use_playwright_runtime = os.getenv('USE_PLAYWRIGHT', 'false').lower() == 'true'
+        use_playwright_env_raw = os.getenv('USE_PLAYWRIGHT', 'false')
+        use_playwright_runtime = use_playwright_env_raw.strip().lower() == 'true'
         logger.info(f"[FETCH_PAGE] USE_PLAYWRIGHT module variable = {USE_PLAYWRIGHT}")
-        logger.info(f"[FETCH_PAGE] USE_PLAYWRIGHT env at runtime = {os.getenv('USE_PLAYWRIGHT', 'NOT SET')}")
+        logger.info(f"[FETCH_PAGE] USE_PLAYWRIGHT env at runtime = '{use_playwright_env_raw}' (raw)")
+        logger.info(f"[FETCH_PAGE] After strip().lower() = '{use_playwright_env_raw.strip().lower()}'")
         logger.info(f"[FETCH_PAGE] use_playwright_runtime = {use_playwright_runtime}")
 
         # Use Playwright if enabled (check runtime env var, not module constant)
