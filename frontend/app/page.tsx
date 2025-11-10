@@ -39,6 +39,12 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null)
   const [lastLogCount, setLastLogCount] = useState(0)
 
+  // Detect mobile for performance optimization
+  const isMobile = useMemo(() => {
+    if (typeof window === 'undefined') return false
+    return window.innerWidth <= 768
+  }, [])
+
   // Poll backend logs while scraping
   const pollLogs = async () => {
     try {
@@ -158,14 +164,14 @@ export default function Home() {
       <aside className="sidebar">
         <Particles
           particleColors={PARTICLE_COLORS}
-          particleCount={150}
+          particleCount={isMobile ? 50 : 150}
           particleSpread={8}
-          speed={0.05}
-          particleBaseSize={80}
-          moveParticlesOnHover={true}
+          speed={isMobile ? 0.03 : 0.05}
+          particleBaseSize={isMobile ? 60 : 80}
+          moveParticlesOnHover={!isMobile}
           particleHoverFactor={0.5}
           alphaParticles={true}
-          disableRotation={false}
+          disableRotation={isMobile}
         />
         <div className="sidebar-content">
           {/* Header */}

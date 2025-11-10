@@ -328,7 +328,109 @@ input[type="number"].input-field::-webkit-outer-spin-button {
     min-height: 100vh;
   }
 
+  .sidebar-content {
+    padding: 3rem 2rem;
+    padding-bottom: 4rem;
+  }
+
   .bg-showcase {
     display: none;
+  }
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .sidebar-content {
+    padding: 2rem 1.5rem;
+    padding-bottom: 3rem;
+    min-height: auto;
+    justify-content: flex-start;
+  }
+
+  /* Smaller header on mobile */
+  .sidebar h1 {
+    font-size: 1.75rem !important;
+    margin-bottom: 0.5rem;
+  }
+
+  .sidebar p {
+    font-size: 0.875rem !important;
+  }
+
+  /* Touch-friendly buttons */
+  .btn-primary {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    min-height: 48px;
+  }
+
+  /* Larger tap targets for checkbox */
+  .checkbox {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  /* Better spacing for form */
+  form .space-y-6 > * + * {
+    margin-top: 1.5rem;
+  }
+
+  /* Input fields - better mobile UX */
+  .input-field {
+    padding: 0.875rem 1rem;
+    font-size: 1rem; /* Prevent zoom on iOS */
+  }
+
+  /* Stats grid - 2 columns on mobile */
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.75rem !important;
+  }
+
+  /* Business cards - more compact */
+  .business-row {
+    padding: 1rem 0;
+  }
+
+  /* Results section spacing */
+  .mt-12 {
+    margin-top: 2rem !important;
+  }
+
+  /* Download button - bigger on mobile */
+  button.text-xs {
+    font-size: 0.875rem !important;
+    padding: 0.5rem;
+  }
+}
+
+/* Small mobile (iPhone SE, etc) */
+@media (max-width: 480px) {
+  .sidebar-content {
+    padding: 1.5rem 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .sidebar h1 {
+    font-size: 1.5rem !important;
+  }
+
+  /* Compact stats */
+  .grid-cols-4 > div p:first-child {
+    font-size: 0.625rem !important;
+  }
+
+  .grid-cols-4 > div p:last-child {
+    font-size: 0.8125rem !important;
+  }
+
+  /* Business list - ultra compact */
+  .business-row h3 {
+    font-size: 0.8125rem !important;
+  }
+
+  .business-row p,
+  .business-row span {
+    font-size: 0.75rem !important;
   }
 }
