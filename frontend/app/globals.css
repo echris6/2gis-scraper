@@ -1,0 +1,324 @@
+@import "tailwindcss";
+
+/* Split Screen Layout */
+.split-screen {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Left Sidebar - 40% width */
+.sidebar {
+  width: 40%;
+  min-width: 480px;
+  background: #18181b;
+  overflow-y: auto;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.08) inset;
+}
+
+.sidebar-content {
+  padding: 4rem 3rem;
+  max-width: 540px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding-bottom: 6rem;
+  position: relative;
+  z-index: 2;
+}
+
+/* Dark theme text overrides */
+.sidebar h1,
+.sidebar h2,
+.sidebar h3,
+.sidebar label,
+.sidebar .text-zinc-900 {
+  color: #fafafa !important;
+}
+
+.sidebar p,
+.sidebar span,
+.sidebar .text-zinc-600,
+.sidebar .text-zinc-700 {
+  color: #a1a1aa !important;
+}
+
+.sidebar .text-zinc-500 {
+  color: #71717a !important;
+}
+
+/* Right Side - Background showcase */
+.bg-showcase {
+  width: 60%;
+  background-image: url('/newbg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Input Fields */
+.input-field {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #3f3f46;
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  background: #27272a;
+  color: #fafafa;
+  transition: all 0.2s;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #71717a;
+  background: #3f3f46;
+}
+
+/* Select Dropdown */
+select.input-field {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23a1a1aa' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 2.5rem;
+}
+
+select.input-field:focus {
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23fafafa' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+/* Number Input */
+input[type="number"].input-field {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+input[type="number"].input-field::-webkit-inner-spin-button,
+input[type="number"].input-field::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Custom Number Input Wrapper */
+.number-input-wrapper {
+  position: relative;
+}
+
+.number-input-wrapper input {
+  padding-right: 2.5rem;
+}
+
+.number-input-controls {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.number-input-btn {
+  width: 1.5rem;
+  height: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: #71717a;
+  transition: color 0.2s;
+}
+
+.number-input-btn:hover {
+  color: #fafafa;
+}
+
+.number-input-btn svg {
+  width: 10px;
+  height: 10px;
+}
+
+/* Checkbox */
+.checkbox {
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 4px;
+  border: 1px solid #3f3f46;
+  background: #27272a;
+  cursor: pointer;
+  transition: all 0.2s;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+}
+
+.checkbox:hover {
+  border-color: #71717a;
+}
+
+.checkbox:focus {
+  outline: none;
+  border-color: #a1a1aa;
+  background: #3f3f46;
+}
+
+.checkbox:checked {
+  background-color: #fafafa;
+  border-color: #fafafa;
+}
+
+.checkbox:checked::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 4px;
+  height: 8px;
+  border: solid #18181b;
+  border-width: 0 2px 2px 0;
+  transform: translate(-50%, -55%) rotate(45deg);
+}
+
+/* Primary Button */
+.btn-primary {
+  width: 100%;
+  padding: 0.875rem 1.5rem;
+  background: #fafafa;
+  color: #18181b;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #e4e4e7;
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  background: #27272a;
+  color: #fafafa;
+  border: 1px solid #3f3f46;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background: #3f3f46;
+  border-color: #71717a;
+}
+
+/* Stat Cards */
+.stat-card {
+  background: #27272a;
+  border: 1px solid #3f3f46;
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+
+.stat-label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #a1a1aa;
+  margin-bottom: 0.5rem;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fafafa;
+  line-height: 1;
+}
+
+.stat-percent {
+  font-size: 0.75rem;
+  color: #71717a;
+  margin-top: 0.375rem;
+}
+
+/* Business Cards */
+.business-card {
+  background: #27272a;
+  border: 1px solid #3f3f46;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.business-card:hover {
+  border-color: #71717a;
+  background: #3f3f46;
+}
+
+/* Business Row - Minimal Style */
+.business-row {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #27272a;
+}
+
+.business-row:last-child {
+  border-bottom: none;
+}
+
+/* Scrollbar Styling */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #18181b;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #71717a;
+}
+
+/* Responsive - Stack on mobile */
+@media (max-width: 1024px) {
+  .split-screen {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .bg-showcase {
+    display: none;
+  }
+}

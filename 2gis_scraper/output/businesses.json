@@ -1,0 +1,2695 @@
+[
+  {
+    "id": "70000001020693734",
+    "name": "Salt, Kite Beach",
+    "address": "Salt Fast Food Restaurant, 44/1, Kite Beach street",
+    "coordinates": {
+      "lat": 25.168171,
+      "lon": 55.211396
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.5,
+    "review_count": 495,
+    "rubric": [
+      "Fast food restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 30Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Breakfast menu",
+        "value": "food_service_details_food_breakfast"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Kids menu",
+        "value": "food_service_details_food_kids_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Assortment",
+        "name": "Burgers",
+        "value": "food_service_assortment_assortment_hamburgers"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash on delivery",
+        "value": "general_payment_type_cash_on_delivery"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Hindi",
+        "value": "service_language_hindi"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Urdu",
+        "value": "service_language_urdu"
+      },
+      {
+        "category": "Service Language",
+        "name": "Tagalog",
+        "value": "service_language_tagalo"
+      }
+    ]
+  },
+  {
+    "id": "70000001089452553",
+    "name": "Sakhalin Dubai, seafood restaurant",
+    "address": "Dubai Municipality, Dubai, Jumeirah, Jumeirah 1",
+    "coordinates": {
+      "lat": 25.227487,
+      "lon": 55.257372
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.0,
+    "review_count": 4,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 800Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "PanAsian cuisine",
+        "value": "food_service_food_pan_asian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seafood cuisine",
+        "value": "food_service_food_fish"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Alcohol menu",
+        "value": "food_service_details_food_alcohol"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Kids menu",
+        "value": "food_service_details_food_kids_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Live music",
+        "value": "food_service_details_food_live_music"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Valet Parking",
+        "value": "food_service_infrastructure_valet_parking"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Brunch",
+        "value": "food_service_brunch"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 160Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Online payment",
+        "value": "general_payment_type_internet"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Tagalog",
+        "value": "service_language_tagalo"
+      },
+      {
+        "category": "Accessible entrance",
+        "name": "Wheelchair Accessible",
+        "value": "accessible_entrance_accessible_entrance"
+      }
+    ]
+  },
+  {
+    "id": "70000001059771357",
+    "name": "Mandi Man, restaurant",
+    "address": "Dubai Municipality, Dubai, Ras Al Khor, Al Jadaf",
+    "coordinates": {
+      "lat": 25.221672,
+      "lon": 55.334909
+    },
+    "phone": null,
+    "website": null,
+    "rating": 5.0,
+    "review_count": 7,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 40Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Arabic cuisine",
+        "value": "food_service_food_arabian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 40Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Kebab",
+        "value": "food_service_assortment_assortment_kebab"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash on delivery",
+        "value": "general_payment_type_cash_on_delivery"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Chinese",
+        "value": "service_language_chinese"
+      }
+    ]
+  },
+  {
+    "id": "70000001060047826",
+    "name": "Al Khail Kitchen, restaurant",
+    "address": "6a, 20a street",
+    "coordinates": {
+      "lat": 25.125092,
+      "lon": 55.239342
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.8,
+    "review_count": 5,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 15Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Pakistani cuisine",
+        "value": "food_service_food_pakistanian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Breakfast menu",
+        "value": "food_service_details_food_breakfast"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 60Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Karak Tea",
+        "value": "food_service_assortment_assortment_karak_tea"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Hindi",
+        "value": "service_language_hindi"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Urdu",
+        "value": "service_language_urdu"
+      }
+    ]
+  },
+  {
+    "id": "70000001055149461",
+    "name": "Laffah, arabic restaurant",
+    "address": "Flamingo Building, 49, Sheikh Khalifa Bin Zayed road",
+    "coordinates": {
+      "lat": 25.251145,
+      "lon": 55.302488
+    },
+    "phone": null,
+    "website": null,
+    "rating": 5.0,
+    "review_count": 7,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 20Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Arabic cuisine",
+        "value": "food_service_food_arabian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 64Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Shawarma",
+        "value": "food_service_assortment_assortment_shawarma"
+      },
+      {
+        "category": "Assortment",
+        "name": "Burgers",
+        "value": "food_service_assortment_assortment_hamburgers"
+      },
+      {
+        "category": "Assortment",
+        "name": "Falafel",
+        "value": "food_service_assortment_assortment_falafel"
+      },
+      {
+        "category": "Assortment",
+        "name": "Kebab",
+        "value": "food_service_assortment_assortment_kebab"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash on delivery",
+        "value": "general_payment_type_cash_on_delivery"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      }
+    ]
+  },
+  {
+    "id": "70000001060259109",
+    "name": "Novikov, restaurant and lounge",
+    "address": "Dubai Mall, 3, Mohammed Bin Rashid Boulevard",
+    "coordinates": {
+      "lat": 25.197157,
+      "lon": 55.275963
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.2,
+    "review_count": 27,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 100Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Asian cuisine",
+        "value": "food_service_food_asian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Mediterranean cuisine",
+        "value": "food_service_food_mediterranean"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Restaurants with a View",
+        "value": "food_service_infrastructure_panoramic_restaurant"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 280Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Tagalog",
+        "value": "service_language_tagalo"
+      }
+    ]
+  },
+  {
+    "id": "70000001041258673",
+    "name": "Ce La Vi Dubai, restaurant",
+    "address": "Address Sky View Hotel, 133a, Sheikh Zayed road",
+    "coordinates": {
+      "lat": 25.201722,
+      "lon": 55.270756
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.6,
+    "review_count": 30,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 180Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Asian cuisine",
+        "value": "food_service_food_asian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Vegetarian menu",
+        "value": "food_service_details_food_vegetarian_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Alcohol menu",
+        "value": "food_service_details_food_alcohol"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Live music",
+        "value": "food_service_details_food_live_music"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Restaurants with a View",
+        "value": "food_service_infrastructure_panoramic_restaurant"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Valet Parking",
+        "value": "food_service_infrastructure_valet_parking"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Brunch",
+        "value": "food_service_brunch"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Brunch hours 13:00-16:00",
+        "value": "food_service_businessbrunch_time"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Brunch price 290â690 AED",
+        "value": "food_service_brunch_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 150Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Tagalog",
+        "value": "service_language_tagalo"
+      },
+      {
+        "category": "Service Language",
+        "name": "French",
+        "value": "service_language_french"
+      },
+      {
+        "category": "Service Language",
+        "name": "Russian",
+        "value": "service_language_russian"
+      },
+      {
+        "category": "Accessible entrance",
+        "name": "Wheelchair Accessible",
+        "value": "accessible_entrance_accessible_entrance"
+      }
+    ]
+  },
+  {
+    "id": "70000001006522145",
+    "name": "The Cheesecake Factory, restaurant",
+    "address": "Dubai Mall, 3, Mohammed Bin Rashid Boulevard",
+    "coordinates": {
+      "lat": 25.19716,
+      "lon": 55.279072
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.5,
+    "review_count": 278,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 120Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "American cuisine",
+        "value": "food_service_food_american"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "International cuisine",
+        "value": "food_service_food_international"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Breakfast menu",
+        "value": "food_service_details_food_breakfast"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Vegetarian menu",
+        "value": "food_service_details_food_vegetarian_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Kids menu",
+        "value": "food_service_details_food_kids_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 104Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Burgers",
+        "value": "food_service_assortment_assortment_hamburgers"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash on delivery",
+        "value": "general_payment_type_cash_on_delivery"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Hindi",
+        "value": "service_language_hindi"
+      },
+      {
+        "category": "Service Language",
+        "name": "Urdu",
+        "value": "service_language_urdu"
+      },
+      {
+        "category": "Service Language",
+        "name": "Tagalog",
+        "value": "service_language_tagalo"
+      },
+      {
+        "category": "Accessible entrance",
+        "name": "Wheelchair Accessible",
+        "value": "accessible_entrance_accessible_entrance"
+      }
+    ]
+  },
+  {
+    "id": "70000001018710282",
+    "name": "Kukko, restaurant",
+    "address": "Al Shiba Tower Block B, 185, 19 street",
+    "coordinates": {
+      "lat": 25.300797,
+      "lon": 55.37327
+    },
+    "phone": null,
+    "website": null,
+    "rating": 5.0,
+    "review_count": 1,
+    "rubric": [
+      "Fast food restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 15Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Assortment",
+        "name": "Burgers",
+        "value": "food_service_assortment_assortment_hamburgers"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Assortment",
+        "name": "Karak Tea",
+        "value": "food_service_assortment_assortment_karak_tea"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash on delivery",
+        "value": "general_payment_type_cash_on_delivery"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Hindi",
+        "value": "service_language_hindi"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Urdu",
+        "value": "service_language_urdu"
+      }
+    ]
+  },
+  {
+    "id": "70000001062503777",
+    "name": "Navat Tea House, restaurant",
+    "address": "Stand Point Tower B, 11d, Mohammed Bin Rashid Boulevard",
+    "coordinates": {
+      "lat": 25.197151,
+      "lon": 55.270818
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.8,
+    "review_count": 15,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 100Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Turkish cuisine",
+        "value": "food_service_food_turkish"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Arabic cuisine",
+        "value": "food_service_food_arabian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Breakfast menu",
+        "value": "food_service_details_food_breakfast"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Vegetarian menu",
+        "value": "food_service_details_food_vegetarian_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Kids menu",
+        "value": "food_service_details_food_kids_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Shisha",
+        "value": "food_service_details_food_hookah"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Live music",
+        "value": "food_service_details_food_live_music"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "VIP-Room",
+        "value": "food_service_infrastructure_vip_hall"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Party Hall",
+        "value": "food_service_infrastructure_party_hall"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Restaurants with a View",
+        "value": "food_service_infrastructure_panoramic_restaurant"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Valet Parking",
+        "value": "food_service_infrastructure_valet_parking"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Brunch",
+        "value": "food_service_brunch"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 40Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Shawarma",
+        "value": "food_service_assortment_assortment_shawarma"
+      },
+      {
+        "category": "Assortment",
+        "name": "Burgers",
+        "value": "food_service_assortment_assortment_hamburgers"
+      },
+      {
+        "category": "Assortment",
+        "name": "Falafel",
+        "value": "food_service_assortment_assortment_falafel"
+      },
+      {
+        "category": "Assortment",
+        "name": "Kebab",
+        "value": "food_service_assortment_assortment_kebab"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "More",
+        "name": "Prayer room",
+        "value": "pray_room_prayer_room"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash on delivery",
+        "value": "general_payment_type_cash_on_delivery"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      }
+    ]
+  },
+  {
+    "id": "70000001041053687",
+    "name": "Laffah, arabic restaurant",
+    "address": "Dubai Municipality, Dubai, Hadaeq Mohammed Bin Rashid, Al Barsha 1",
+    "coordinates": {
+      "lat": 25.111559,
+      "lon": 55.194578
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.9,
+    "review_count": 8,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 20Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Arabic cuisine",
+        "value": "food_service_food_arabian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 64Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Shawarma",
+        "value": "food_service_assortment_assortment_shawarma"
+      },
+      {
+        "category": "Assortment",
+        "name": "Burgers",
+        "value": "food_service_assortment_assortment_hamburgers"
+      },
+      {
+        "category": "Assortment",
+        "name": "Falafel",
+        "value": "food_service_assortment_assortment_falafel"
+      },
+      {
+        "category": "Assortment",
+        "name": "Kebab",
+        "value": "food_service_assortment_assortment_kebab"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash on delivery",
+        "value": "general_payment_type_cash_on_delivery"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Tagalog",
+        "value": "service_language_tagalo"
+      }
+    ]
+  },
+  {
+    "id": "70000001056047984",
+    "name": "Pak Darbar, restaurant",
+    "address": "The Grid, 13, 40 street",
+    "coordinates": {
+      "lat": 25.111464,
+      "lon": 55.192605
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.2,
+    "review_count": 7,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 25Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Pakistani cuisine",
+        "value": "food_service_food_pakistanian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Breakfast menu",
+        "value": "food_service_details_food_breakfast"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Vegetarian menu",
+        "value": "food_service_details_food_vegetarian_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 20Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Karak Tea",
+        "value": "food_service_assortment_assortment_karak_tea"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash on delivery",
+        "value": "general_payment_type_cash_on_delivery"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Hindi",
+        "value": "service_language_hindi"
+      },
+      {
+        "category": "Service Language",
+        "name": "Urdu",
+        "value": "service_language_urdu"
+      },
+      {
+        "category": "Accessible entrance",
+        "name": "Wheelchair Accessible",
+        "value": "accessible_entrance_accessible_entrance"
+      }
+    ]
+  },
+  {
+    "id": "70000001092852304",
+    "name": "Bannu Gul Beef Pulao, pakistani restaurant",
+    "address": "Grand City Mall, 80, Al Marabea' street",
+    "coordinates": {
+      "lat": 25.128774,
+      "lon": 55.232077
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.8,
+    "review_count": 4,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 10Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Pakistani cuisine",
+        "value": "food_service_food_pakistanian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 50Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Hindi",
+        "value": "service_language_hindi"
+      },
+      {
+        "category": "Service Language",
+        "name": "Urdu",
+        "value": "service_language_urdu"
+      }
+    ]
+  },
+  {
+    "id": "70000001082516702",
+    "name": "Myata Platinum Premium Lounge, restaurant",
+    "address": "City Walk Mall, 16, Al Safa road",
+    "coordinates": {
+      "lat": 25.206648,
+      "lon": 55.261336
+    },
+    "phone": null,
+    "website": null,
+    "rating": 5.0,
+    "review_count": 9,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 300Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Mexican cuisine",
+        "value": "food_service_food_mexican"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Vegetarian menu",
+        "value": "food_service_details_food_vegetarian_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Alcohol menu",
+        "value": "food_service_details_food_alcohol"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Shisha",
+        "value": "food_service_details_food_hookah"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "VIP-Room",
+        "value": "food_service_infrastructure_vip_hall"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Valet Parking",
+        "value": "food_service_infrastructure_valet_parking"
+      },
+      {
+        "category": "Assortment",
+        "name": "Burgers",
+        "value": "food_service_assortment_assortment_hamburgers"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Online payment",
+        "value": "general_payment_type_internet"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Accessible entrance",
+        "name": "Wheelchair Accessible",
+        "value": "accessible_entrance_accessible_entrance"
+      }
+    ]
+  },
+  {
+    "id": "70000001078774631",
+    "name": "Rangeela 2, cafe",
+    "address": "60, 2 street",
+    "coordinates": {
+      "lat": 25.239097,
+      "lon": 55.307662
+    },
+    "phone": null,
+    "website": null,
+    "rating": 5.0,
+    "review_count": 2,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 50Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Indian cuisine",
+        "value": "food_service_food_indian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Breakfast menu",
+        "value": "food_service_details_food_breakfast"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Shisha",
+        "value": "food_service_details_food_hookah"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Live music",
+        "value": "food_service_details_food_live_music"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 70Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Burgers",
+        "value": "food_service_assortment_assortment_hamburgers"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Assortment",
+        "name": "Karak Tea",
+        "value": "food_service_assortment_assortment_karak_tea"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Hindi",
+        "value": "service_language_hindi"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Urdu",
+        "value": "service_language_urdu"
+      },
+      {
+        "category": "Accessible entrance",
+        "name": "Wheelchair Accessible",
+        "value": "accessible_entrance_accessible_entrance"
+      }
+    ]
+  },
+  {
+    "id": "70000001045008514",
+    "name": "CZN Burak, restaurant",
+    "address": "Dubai Mall, 3, Mohammed Bin Rashid Boulevard",
+    "coordinates": {
+      "lat": 25.193341,
+      "lon": 55.280738
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.7,
+    "review_count": 20,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 150Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Turkish cuisine",
+        "value": "food_service_food_turkish"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Live music",
+        "value": "food_service_details_food_live_music"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "VIP-Room",
+        "value": "food_service_infrastructure_vip_hall"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 140Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Kebab",
+        "value": "food_service_assortment_assortment_kebab"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Turkish",
+        "value": "service_language_turkish"
+      }
+    ]
+  },
+  {
+    "id": "70000001006411002",
+    "name": "Pak Rose, restaurant",
+    "address": "Alia Saleh Nooman Building, 19, 10b street",
+    "coordinates": {
+      "lat": 25.279088,
+      "lon": 55.331078
+    },
+    "phone": null,
+    "website": null,
+    "rating": 5.0,
+    "review_count": 6,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 15Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Pakistani cuisine",
+        "value": "food_service_food_pakistanian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Breakfast menu",
+        "value": "food_service_details_food_breakfast"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Vegetarian menu",
+        "value": "food_service_details_food_vegetarian_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 70Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash on delivery",
+        "value": "general_payment_type_cash_on_delivery"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Urdu",
+        "value": "service_language_urdu"
+      },
+      {
+        "category": "Service Language",
+        "name": "Pashto",
+        "value": "service_language_pashto"
+      },
+      {
+        "category": "Accessible entrance",
+        "name": "Wheelchair Accessible",
+        "value": "accessible_entrance_accessible_entrance"
+      }
+    ]
+  },
+  {
+    "id": "70000001031675897",
+    "name": "L'ETO, cafe",
+    "address": "Dubai Mall, 3, Mohammed Bin Rashid Boulevard",
+    "coordinates": {
+      "lat": 25.197273,
+      "lon": 55.276141
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.5,
+    "review_count": 29,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 100Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "International cuisine",
+        "value": "food_service_food_international"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Breakfast menu",
+        "value": "food_service_details_food_breakfast"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Vegetarian menu",
+        "value": "food_service_details_food_vegetarian_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 50Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Hindi",
+        "value": "service_language_hindi"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Urdu",
+        "value": "service_language_urdu"
+      },
+      {
+        "category": "Service Language",
+        "name": "Tagalog",
+        "value": "service_language_tagalo"
+      },
+      {
+        "category": "Accessible entrance",
+        "name": "Wheelchair Accessible",
+        "value": "accessible_entrance_accessible_entrance"
+      }
+    ]
+  },
+  {
+    "id": "70000001006524703",
+    "name": "P.F Chang's, restaurant",
+    "address": "Dubai Mall, 3, Mohammed Bin Rashid Boulevard",
+    "coordinates": {
+      "lat": 25.195703,
+      "lon": 55.2785
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.6,
+    "review_count": 153,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 70Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Asian cuisine",
+        "value": "food_service_food_asian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "American cuisine",
+        "value": "food_service_food_american"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Vegetarian menu",
+        "value": "food_service_details_food_vegetarian_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Kids menu",
+        "value": "food_service_details_food_kids_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 50Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Hindi",
+        "value": "service_language_hindi"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Urdu",
+        "value": "service_language_urdu"
+      },
+      {
+        "category": "Service Language",
+        "name": "Tagalog",
+        "value": "service_language_tagalo"
+      },
+      {
+        "category": "Service Language",
+        "name": "Sinhalese",
+        "value": "service_language_sinhalese"
+      },
+      {
+        "category": "Service Language",
+        "name": "Swahili",
+        "value": "service_language_swahili"
+      },
+      {
+        "category": "Accessible entrance",
+        "name": "Wheelchair Accessible",
+        "value": "accessible_entrance_accessible_entrance"
+      }
+    ]
+  },
+  {
+    "id": "70000001080692636",
+    "name": "Lyallpur, restaurant",
+    "address": "10, 1b street",
+    "coordinates": {
+      "lat": 25.277107,
+      "lon": 55.329593
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.7,
+    "review_count": 7,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 15Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Pakistani cuisine",
+        "value": "food_service_food_pakistanian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 24Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Shawarma",
+        "value": "food_service_assortment_assortment_shawarma"
+      },
+      {
+        "category": "Assortment",
+        "name": "Kebab",
+        "value": "food_service_assortment_assortment_kebab"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Assortment",
+        "name": "Karak Tea",
+        "value": "food_service_assortment_assortment_karak_tea"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Hindi",
+        "value": "service_language_hindi"
+      },
+      {
+        "category": "Service Language",
+        "name": "Urdu",
+        "value": "service_language_urdu"
+      }
+    ]
+  },
+  {
+    "id": "70000001052622977",
+    "name": "Villa 515, cafe",
+    "address": "Villa 515 Cafe, 515, Jumeirah road",
+    "coordinates": {
+      "lat": 25.177073,
+      "lon": 55.22202
+    },
+    "phone": null,
+    "website": null,
+    "rating": 5.0,
+    "review_count": 4,
+    "rubric": [
+      "Cafe / Restaurants",
+      "Beauty products / Perfumes"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "perfume shop: Sun-Sat 10:30-22:00",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Awards",
+        "name": "GreatList",
+        "value": "guide_great_list"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 100Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Breakfast menu",
+        "value": "food_service_details_food_breakfast"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Vegetarian menu",
+        "value": "food_service_details_food_vegetarian_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 50Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Tagalog",
+        "value": "service_language_tagalo"
+      },
+      {
+        "category": "Accessible entrance",
+        "name": "Wheelchair Accessible",
+        "value": "accessible_entrance_accessible_entrance"
+      }
+    ]
+  },
+  {
+    "id": "70000001068918189",
+    "name": "Baoli Dubai, beach club",
+    "address": "Dubai Municipality, Dubai, Jumeirah, Jumeirah 1",
+    "coordinates": {
+      "lat": 25.226144,
+      "lon": 55.25631
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.9,
+    "review_count": 1,
+    "rubric": [
+      "Cafe / Restaurants",
+      "Beaches"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Awards",
+        "name": "GreatList",
+        "value": "guide_great_list"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 250Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Asian cuisine",
+        "value": "food_service_food_asian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Japanese cuisine",
+        "value": "food_service_food_japanese"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Breakfast menu",
+        "value": "food_service_details_food_breakfast"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Vegetarian menu",
+        "value": "food_service_details_food_vegetarian_menu"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Alcohol menu",
+        "value": "food_service_details_food_alcohol"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Live music",
+        "value": "food_service_details_food_live_music"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "VIP-Room",
+        "value": "food_service_infrastructure_vip_hall"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Dance floor",
+        "value": "food_service_infrastructure_dancefloor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Party Hall",
+        "value": "food_service_infrastructure_party_hall"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 250Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Burgers",
+        "value": "food_service_assortment_assortment_hamburgers"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Beaches",
+        "name": "Beach club",
+        "value": "beaches_private_beach"
+      },
+      {
+        "category": "Beaches",
+        "name": "Restaurants / Bars / Cafes",
+        "value": "beaches_infrastructure_foodcourt"
+      },
+      {
+        "category": "Beaches",
+        "name": "Beach huts",
+        "value": "beaches_infrastructure_beach_huts"
+      },
+      {
+        "category": "Beaches",
+        "name": "Toilet",
+        "value": "beaches_infrastructure_toilet"
+      },
+      {
+        "category": "Beaches",
+        "name": "Swimming pool",
+        "value": "beaches_infrastructure_swimming_pool"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Tagalog",
+        "value": "service_language_tagalo"
+      }
+    ]
+  },
+  {
+    "id": "70000001006759212",
+    "name": "The Kana, cafe",
+    "address": "Fifty One Business Bay Tower, 98, Marasi Drive",
+    "coordinates": {
+      "lat": 25.190262,
+      "lon": 55.284579
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.4,
+    "review_count": 56,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 50Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "International cuisine",
+        "value": "food_service_food_international"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Shisha",
+        "value": "food_service_details_food_hookah"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Outdoor sitting area",
+        "value": "food_service_infrastructure_outdoor"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 220Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Assortment",
+        "name": "Burgers",
+        "value": "food_service_assortment_assortment_hamburgers"
+      },
+      {
+        "category": "Assortment",
+        "name": "French fries",
+        "value": "food_service_assortment_assortment_frenchfries"
+      },
+      {
+        "category": "Assortment",
+        "name": "Sandwiches",
+        "value": "food_service_assortment_assortment_sandwich"
+      },
+      {
+        "category": "Assortment",
+        "name": "Fresh juice",
+        "value": "food_service_assortment_assortment_fresh_juice"
+      },
+      {
+        "category": "Additionally",
+        "name": "Wi-Fi",
+        "value": "additionally_services_wifi"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Tagalog",
+        "value": "service_language_tagalo"
+      },
+      {
+        "category": "Accessible entrance",
+        "name": "Wheelchair Accessible",
+        "value": "accessible_entrance_accessible_entrance"
+      }
+    ]
+  },
+  {
+    "id": "70000001044203121",
+    "name": "Kozhikode Star, restaurant",
+    "address": "Dubai Municipality, Dubai, Bur Dubai, Al Karama",
+    "coordinates": {
+      "lat": 25.246205,
+      "lon": 55.304733
+    },
+    "phone": null,
+    "website": null,
+    "rating": 4.8,
+    "review_count": 3,
+    "rubric": [
+      "Cafe / Restaurants"
+    ],
+    "schedule": {
+      "type": "regular",
+      "hours": {},
+      "comments": "",
+      "is_24_7": false
+    },
+    "attributes": [
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Average bill 30Â AED",
+        "value": "food_service_avg_price"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Indian cuisine",
+        "value": "food_service_food_indian"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Breakfast menu",
+        "value": "food_service_details_food_breakfast"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Desserts",
+        "value": "food_service_details_food_desserts"
+      },
+      {
+        "category": "Restaurants / CafÃ©",
+        "name": "Seating capacity 20Â people",
+        "value": "food_service_capacity"
+      },
+      {
+        "category": "Services",
+        "name": "Delivery",
+        "value": "covid_homedelivery"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Card payment",
+        "value": "general_payment_type_card"
+      },
+      {
+        "category": "Payment methods",
+        "name": "Cash payment",
+        "value": "general_payment_type_cash"
+      },
+      {
+        "category": "Service Language",
+        "name": "English",
+        "value": "service_language_english"
+      },
+      {
+        "category": "Service Language",
+        "name": "Hindi",
+        "value": "service_language_hindi"
+      },
+      {
+        "category": "Service Language",
+        "name": "Arabic",
+        "value": "service_language_arabic"
+      },
+      {
+        "category": "Service Language",
+        "name": "Malayalam",
+        "value": "service_language_malayalam"
+      },
+      {
+        "category": "Service Language",
+        "name": "Urdu",
+        "value": "service_language_urdu"
+      }
+    ]
+  }
+]

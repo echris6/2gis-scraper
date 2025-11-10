@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yandex Maps Lead Finder</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1>🎯 Lead Finder</h1>
+      <p class="subtitle">Find businesses without websites</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <!-- Target Selection -->
+      <section class="section">
+        <label class="label">Target Leads</label>
+        <p class="description">How many businesses without websites do you want to find?</p>
+
+        <div class="button-group">
+          <button class="target-btn" data-target="5">5</button>
+          <button class="target-btn active" data-target="10">10</button>
+          <button class="target-btn" data-target="25">25</button>
+          <button class="target-btn" data-target="50">50</button>
+          <button class="target-btn" data-target="100">100</button>
+        </div>
+      </section>
+
+      <!-- Control Buttons -->
+      <section class="section">
+        <button id="startBtn" class="btn btn-primary">
+          <span class="btn-icon">▶</span>
+          Start Scraping
+        </button>
+        <button id="stopBtn" class="btn btn-secondary" style="display: none;">
+          <span class="btn-icon">⏸</span>
+          Stop Scraping
+        </button>
+      </section>
+
+      <!-- Progress Section -->
+      <section id="progressSection" class="section" style="display: none;">
+        <label class="label">Progress</label>
+        <div class="progress-info">
+          <span id="progressText">0/10 leads found</span>
+          <span id="progressPercent">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+      </section>
+
+      <!-- Results Section -->
+      <section id="resultsSection" class="section" style="display: none;">
+        <div class="results-header">
+          <label class="label">Recent Finds</label>
+          <span id="resultsCount" class="results-count">0 leads</span>
+        </div>
+
+        <div id="resultsList" class="results-list">
+          <!-- Results will be added here dynamically -->
+        </div>
+      </section>
+
+      <!-- Export Section -->
+      <section id="exportSection" class="section" style="display: none;">
+        <label class="label">Export Results</label>
+        <div class="export-buttons">
+          <button id="exportCsvBtn" class="btn btn-export">
+            <span class="btn-icon">📄</span>
+            Export CSV
+          </button>
+          <button id="exportJsonBtn" class="btn btn-export">
+            <span class="btn-icon">📦</span>
+            Export JSON
+          </button>
+        </div>
+        <button id="clearBtn" class="btn btn-clear">
+          <span class="btn-icon">🗑️</span>
+          Clear All Data
+        </button>
+      </section>
+
+      <!-- Status Message -->
+      <div id="statusMessage" class="status-message"></div>
+
+      <!-- Instructions -->
+      <section class="section instructions">
+        <details>
+          <summary>How to use</summary>
+          <ol>
+            <li>Search for businesses on <a href="https://yandex.ru/maps" target="_blank">Yandex Maps</a></li>
+            <li>Select your target number of leads above</li>
+            <li>Click "Start Scraping"</li>
+            <li>Watch as qualified leads are found</li>
+            <li>Export results as CSV or JSON</li>
+          </ol>
+        </details>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Made with ❤️ for lead generation</p>
+    </footer>
+  </div>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>
