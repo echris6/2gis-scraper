@@ -83,6 +83,12 @@ def get_logs():
 async def scrape_businesses(request: ScrapeRequest):
     """Scrape businesses from 2GIS"""
     try:
+        # Debug: Check environment variable
+        use_playwright_env = os.getenv('USE_PLAYWRIGHT', 'NOT SET')
+        logger.info(f"=== ENVIRONMENT CHECK ===")
+        logger.info(f"USE_PLAYWRIGHT env var: {use_playwright_env}")
+        logger.info(f"All env vars with PLAYWRIGHT: {[k for k in os.environ.keys() if 'PLAY' in k]}")
+
         # Initialize scraper
         logger.info(f"Initializing scraper for {request.city} - {request.query}")
         scraper = TwoGISScraper()

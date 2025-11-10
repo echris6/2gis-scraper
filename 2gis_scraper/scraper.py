@@ -20,14 +20,19 @@ logger = logging.getLogger(__name__)
 USE_PLAYWRIGHT_ENV = os.getenv('USE_PLAYWRIGHT', 'false')
 USE_PLAYWRIGHT = USE_PLAYWRIGHT_ENV.lower() == 'true'
 
+# Use print for Railway stdout + logger for app logs
+print(f"[SCRAPER MODULE] USE_PLAYWRIGHT environment variable: {USE_PLAYWRIGHT_ENV}")
+print(f"[SCRAPER MODULE] Playwright mode: {'ENABLED' if USE_PLAYWRIGHT else 'DISABLED'}")
 logger.info(f"USE_PLAYWRIGHT environment variable: {USE_PLAYWRIGHT_ENV}")
 logger.info(f"Playwright mode: {'ENABLED' if USE_PLAYWRIGHT else 'DISABLED'}")
 
 if USE_PLAYWRIGHT:
     try:
         from playwright.sync_api import sync_playwright
+        print("[SCRAPER MODULE] ✓ Playwright successfully imported")
         logger.info("✓ Playwright successfully imported")
     except ImportError as e:
+        print(f"[SCRAPER MODULE] ✗ Playwright import failed: {e}")
         logger.error(f"✗ Playwright import failed: {e}")
         logger.warning("Falling back to requests")
         USE_PLAYWRIGHT = False
