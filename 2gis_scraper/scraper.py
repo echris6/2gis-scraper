@@ -142,9 +142,33 @@ class TwoGISScraper:
         """
         try:
             with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True)
-                page = browser.new_page(user_agent=self._get_user_agent())
-                page.goto(url, wait_until='networkidle', timeout=30000)
+                browser = p.chromium.launch(
+                    headless=True,
+                    args=[
+                        '--no-sandbox',
+                        '--disable-setuid-sandbox',
+                        '--disable-dev-shm-usage',
+                        '--disable-blink-features=AutomationControlled'
+                    ]
+                )
+
+                context = browser.new_context(
+                    user_agent=self._get_user_agent(),
+                    viewport={'width': 1920, 'height': 1080},
+                    locale='ru-RU',
+                    timezone_id='Europe/Moscow'
+                )
+
+                page = context.new_page()
+
+                # Use 'load' instead of 'networkidle' - faster and more reliable
+                logger.info(f"[PLAYWRIGHT] Navigating to {url}")
+                page.goto(url, wait_until='load', timeout=60000)
+
+                # Wait a bit for dynamic content to render
+                logger.info("[PLAYWRIGHT] Waiting for dynamic content...")
+                page.wait_for_timeout(3000)
+
                 html = page.content()
                 browser.close()
                 logger.info(f"✓ Fetched with Playwright: {url} ({len(html)} bytes)")
