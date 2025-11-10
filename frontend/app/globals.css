@@ -331,13 +331,17 @@ input[type="number"].input-field::-webkit-outer-spin-button {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   /* Dark overlay for text readability */
   .sidebar::before {
     content: '';
-    position: absolute;
-    inset: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: rgba(24, 24, 27, 0.88);
     z-index: 1;
     pointer-events: none;
