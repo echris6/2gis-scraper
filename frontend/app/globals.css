@@ -326,11 +326,28 @@ input[type="number"].input-field::-webkit-outer-spin-button {
     min-width: 100%;
     height: auto;
     min-height: 100vh;
+    /* Add background image on mobile */
+    background-image: url('/newbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* Dark overlay for text readability */
+  .sidebar::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(24, 24, 27, 0.88);
+    z-index: 1;
+    pointer-events: none;
   }
 
   .sidebar-content {
     padding: 3rem 2rem;
     padding-bottom: 4rem;
+    position: relative;
+    z-index: 2;
   }
 
   .bg-showcase {
