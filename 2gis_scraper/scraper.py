@@ -17,6 +17,8 @@ import config
 logger = logging.getLogger(__name__)
 
 # Check if we should use Playwright (for Railway deployment)
+# NOTE: We now check environment variable at RUNTIME in _fetch_page() method
+# to avoid issues with env vars not being available at module import time
 USE_PLAYWRIGHT_ENV = os.getenv('USE_PLAYWRIGHT', 'false')
 USE_PLAYWRIGHT = USE_PLAYWRIGHT_ENV.lower() == 'true'
 
@@ -26,16 +28,17 @@ print(f"[SCRAPER MODULE] Playwright mode: {'ENABLED' if USE_PLAYWRIGHT else 'DIS
 logger.info(f"USE_PLAYWRIGHT environment variable: {USE_PLAYWRIGHT_ENV}")
 logger.info(f"Playwright mode: {'ENABLED' if USE_PLAYWRIGHT else 'DISABLED'}")
 
-if USE_PLAYWRIGHT:
-    try:
-        from playwright.sync_api import sync_playwright
-        print("[SCRAPER MODULE] ✓ Playwright successfully imported")
-        logger.info("✓ Playwright successfully imported")
-    except ImportError as e:
-        print(f"[SCRAPER MODULE] ✗ Playwright import failed: {e}")
-        logger.error(f"✗ Playwright import failed: {e}")
-        logger.warning("Falling back to requests")
-        USE_PLAYWRIGHT = False
+# Always try to import Playwright (might be needed at runtime)
+try:
+    from playwright.sync_api import sync_playwright
+    PLAYWRIGHT_AVAILABLE = True
+    print("[SCRAPER MODULE] ✓ Playwright successfully imported")
+    logger.info("✓ Playwright successfully imported")
+except ImportError as e:
+    PLAYWRIGHT_AVAILABLE = False
+    print(f"[SCRAPER MODULE] ✗ Playwright import failed: {e}")
+    logger.error(f"✗ Playwright import failed: {e}")
+    logger.warning("Playwright not available - will use requests only")
 
 
 class TwoGISScraper:
@@ -163,14 +166,31 @@ class TwoGISScraper:
         if cached_html:
             return cached_html
 
-        # Use Playwright if enabled (better for anti-bot bypass)
-        if USE_PLAYWRIGHT:
-            html = self._fetch_page_playwright(url)
-            if html:
-                self.cache.set(url, html)
-                return html
-            # Fall through to requests if Playwright fails
-            logger.warning("Playwright failed, falling back to requests")
+        # Debug: Check USE_PLAYWRIGHT value at runtime
+        use_playwright_runtime = os.getenv('USE_PLAYWRIGHT', 'false').lower() == 'true'
+        logger.info(f"[FETCH_PAGE] USE_PLAYWRIGHT module variable = {USE_PLAYWRIGHT}")
+        logger.info(f"[FETCH_PAGE] USE_PLAYWRIGHT env at runtime = {os.getenv('USE_PLAYWRIGHT', 'NOT SET')}")
+        logger.info(f"[FETCH_PAGE] use_playwright_runtime = {use_playwright_runtime}")
+
+        # Use Playwright if enabled (check runtime env var, not module constant)
+        if use_playwright_runtime:
+            if not PLAYWRIGHT_AVAILABLE:
+                logger.error("[FETCH_PAGE] ❌ Playwright requested but not available!")
+                logger.warning("Falling back to requests")
+            else:
+                logger.info("[FETCH_PAGE] ✅ Playwright mode ACTIVE - attempting browser fetch")
+                try:
+                    html = self._fetch_page_playwright(url)
+                    if html:
+                        self.cache.set(url, html)
+                        return html
+                    # Fall through to requests if Playwright fails
+                    logger.warning("Playwright failed, falling back to requests")
+                except Exception as e:
+                    logger.error(f"Playwright error: {e}")
+                    logger.warning("Falling back to requests")
+        else:
+            logger.info("[FETCH_PAGE] ❌ Playwright mode DISABLED - using requests library")
 
         # Fetch from web using requests
         for attempt in range(self.max_retries):
