@@ -60,6 +60,14 @@ class ScrapeRequest(BaseModel):
 def read_root():
     return {"status": "ok", "message": "2GIS Scraper API"}
 
+@app.get("/debug/cors")
+def debug_cors():
+    """Debug endpoint to check CORS configuration"""
+    return {
+        "allowed_origins": allowed_origins,
+        "origins_count": len(allowed_origins)
+    }
+
 @app.get("/cities")
 def get_cities():
     """Get list of available cities"""
