@@ -46,8 +46,12 @@ RUN playwright install-deps chromium
 COPY 2gis_scraper ./2gis_scraper
 COPY api ./api
 
+# Copy and set up start script
+COPY railway-start.sh /app/railway-start.sh
+RUN chmod +x /app/railway-start.sh
+
 # Expose port
 EXPOSE 8000
 
-# Start the application - use shell form to expand $PORT variable
-CMD uvicorn api.main:app --host 0.0.0.0 --port ${PORT:-8000}
+# Start the application using the bash script
+CMD ["/app/railway-start.sh"]
