@@ -6,6 +6,7 @@ import time
 import random
 import logging
 import requests
+import os
 from typing import List, Dict, Optional
 from urllib.parse import quote
 
@@ -14,6 +15,17 @@ from cache_manager import CacheManager
 import config
 
 logger = logging.getLogger(__name__)
+
+# Check if we should use Playwright (for Railway deployment)
+USE_PLAYWRIGHT = os.getenv('USE_PLAYWRIGHT', 'false').lower() == 'true'
+
+if USE_PLAYWRIGHT:
+    try:
+        from playwright.sync_api import sync_playwright
+        logger.info("Playwright mode enabled")
+    except ImportError:
+        logger.warning("Playwright not available, falling back to requests")
+        USE_PLAYWRIGHT = False
 
 
 class TwoGISScraper:
@@ -103,6 +115,29 @@ class TwoGISScraper:
 
         return url
 
+    def _fetch_page_playwright(self, url: str) -> Optional[str]:
+        """
+        Fetch HTML using Playwright (for bypassing anti-bot measures)
+
+        Args:
+            url: URL to fetch
+
+        Returns:
+            HTML content or None if failed
+        """
+        try:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                page = browser.new_page(user_agent=self._get_user_agent())
+                page.goto(url, wait_until='networkidle', timeout=30000)
+                html = page.content()
+                browser.close()
+                logger.info(f"Fetched with Playwright: {url} ({len(html)} bytes)")
+                return html
+        except Exception as e:
+            logger.error(f"Playwright fetch failed: {e}")
+            return None
+
     def _fetch_page(self, url: str) -> Optional[str]:
         """
         Fetch HTML page with caching and retries
@@ -118,7 +153,16 @@ class TwoGISScraper:
         if cached_html:
             return cached_html
 
-        # Fetch from web
+        # Use Playwright if enabled (better for anti-bot bypass)
+        if USE_PLAYWRIGHT:
+            html = self._fetch_page_playwright(url)
+            if html:
+                self.cache.set(url, html)
+                return html
+            # Fall through to requests if Playwright fails
+            logger.warning("Playwright failed, falling back to requests")
+
+        # Fetch from web using requests
         for attempt in range(self.max_retries):
             try:
                 headers = {'User-Agent': self._get_user_agent()}
